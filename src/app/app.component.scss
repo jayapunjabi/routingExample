@@ -1,14 +1,11 @@
-nav{
-    background: #6dcbe7;
-   font-family: Courier ;
-  
-    padding: 15px , 15px ;
-    padding-top: 20px;
-    height: 3em;
-    font-style: oblique;
-    
-    
-
+.navbar, .navbar-nav{
+    background-color: rgb(127, 175, 214) !important;
+}
+.nav-item a{
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 8px 13px;
 }
 
 a:link {
@@ -16,9 +13,9 @@ a:link {
   }
   
 a{
-    padding: 30px;
+    padding: 10px;
     color: white;
-    margin: 20px ;
+    margin: 1s0px ;
     
 }
 
@@ -32,3 +29,20 @@ a{
   }
 
   
+    .navbar-toggler.toggler-example {
+    cursor: pointer;
+    }
+    .dark-blue-text {
+    color: #0A38F5;
+    }
+    .dark-pink-text {
+    color: #AC003A;
+    }
+    .dark-amber-text {
+    color: #ff6f00;
+    }
+    .dark-teal-text {
+    color: #004d40;
+    }
+
+ 

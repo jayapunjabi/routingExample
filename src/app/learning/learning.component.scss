@@ -1,7 +1,27 @@
 .output{
-    background: yellowgreen;
-    height: 3em;
+    margin: 5px 15px;
+    font-size: 20px;
     text-align: center;
-    padding-top: 20px;
-    font-style: oblique;
+}
+.blog-img{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="output"] {
+    width: 100%;
+    align-content: center;
+    font-size :10px;
+    }
+}
+@media only screen and (max-width: 200px) {
+    /* For mobile phones: */
+    [class*="output"] {
+    width: 50%;
+    align-content: center;
+    font-size :10px;
+    }
 }
